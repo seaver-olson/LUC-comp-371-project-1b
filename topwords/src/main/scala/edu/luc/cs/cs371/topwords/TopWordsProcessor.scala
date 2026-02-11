@@ -7,7 +7,7 @@ class TopWordsProcessor(
   observer: WordCloudObserver
   ):
   private val window 
-  private vval freqs
+  private val freqs
   private var wordCount = 0
 
   def processWord(word: String): Unit =
