@@ -20,6 +20,8 @@ lazy val root = project
       "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5"
     ),
 
+    Compile / mainClass := Some("edu.luc.cs.cs371.topwords.Main"),
+
     Test / testOptions += Tests.Argument("-oD"),
     Test / parallelExecution := false
   )
